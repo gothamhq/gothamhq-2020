@@ -232,6 +232,15 @@ body.type-doc{
 	@import "type-doc";
 }
 
+body.type-mpage{
+	@import "type-mpage";
+}
+
+body.section-blog{
+	@import "section-blog";
+}
+
+
 dl{
 	dt {
 		display: inline;

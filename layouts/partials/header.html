@@ -2,7 +2,7 @@
 <header>
 	<nav id="main-nav">
 		<a class="site-title" href="{{ .Site.BaseURL  }}">
-			<img src="/assets/img/logos/logo-docs.svg" />
+			<img src="/assets/img/logos/{{ default "logo-main.svg" .Site.Params.logo }}" />
 		</a>
 		<a class="toggle"><span class="fas fa-bars"></span></a>
 		<ul class="menu h main">
